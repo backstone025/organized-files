@@ -1,0 +1,11 @@
+microsoft -> JDK 다운로드(x64, msi설치)
+java 파일 찾기
+eclipse
+
+dir
+javac(자바 컴파일러)
+컴파일: 	javac HelloJavaProg2.java
+한글:	javac HelloJavaProg2.java -encordig UTF8
+실행:	javac 대신 java씀 / .java 제외한다. (class : 이진코드[binary filed] 즉 실행파일)
+
+jar 파일

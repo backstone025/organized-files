@@ -1,0 +1,30 @@
+- 출력
+	* 표준 출력 스트림 : System.out
+- 입력
+	* 방법:
+		1. 표준 입력 스트립( System.in )사용
+			-> 입력된 키를 단순한 바이트 정보로 응용프로그램에
+			     전달하므로 받은 정보를 문자나 숫자로 변환해야 하는 번거로움이 있다.
+
+	[입력] -> [System.in : 01001. . .] -> [자바 응용프로그램 : 이후 변환]
+
+		2. Scanner 이용한 키 입력
+			1) 맨 앞줄에 import.java.util.Scanner ( import 문) 작성
+			2) Scanner 객체 생성
+				Scanner scanner = new Scanner(System.in)
+			3) Scanner 클래스로 키 입력 받기 -> Scanner 클래스의 메소드 이용
+				int age = scanner.nextInt();
+			4) close() 메소드로 Scanner 사용 종료 선언
+				scanner.close()
+
+	[입력] -> [System.in : 01001. . .] -> [Scanner : (변환) 'a', 3.14 . . .] -> [자바 응용프로그램]
+
+		* 메소드 종류
+			- next() : 문자열
+			- hasNext() : 입력 있음 -> true 출력, 
+				    입력 없음 -> false 출력
+			- nextLine() : \n 포함하는 한 라인 읽고 \n을 버린 나머지 문자열 리턴
+					(c/c++) scanf("%[^\n]s", &s);와 비슷
+			- 나머지: next+(리터럴)	"단, camel 식으로 작성"
+				ex) scanner.nextDouble();
+			

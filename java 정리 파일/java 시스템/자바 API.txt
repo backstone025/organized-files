@@ -1,0 +1,8 @@
+- 자바 API
+
+	* [ 인터페이스 [ API [컴파일 된 매소드], . . .]]
+		- 인터페이스 : 사용자가 기기를 쉽게 동작시키기 위해 도움을 주는 시스템
+			- API : Application Programming Interface(인터페이스의 일종)
+			*라이브러리와 종종 헷갈리곤 하는데 엄밀히 말하면 서로 다르다. API는 소프트웨어 개발에서 호환성을 위해 지켜야 하는 추상적인 원칙이다.
+
+	* http://docs.oracle.com/javase/10/docs/api/ : API에 대한 설명
